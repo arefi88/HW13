@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun visible(view: View?) {
-        view!!.visibility = View.INVISIBLE
+        view!!.visibility = View.GONE
     }
 
     private fun setTextView(view: TextView) {
